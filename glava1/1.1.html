@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
     <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../jsScripts/myFunctions.js"></script>
     <title>Глава 1</title>
 
 </head>
@@ -17,7 +18,7 @@
         <a href="glava1.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Шлоки Глава1</a>
         <a href="1.2.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all" >следующая шлока</a>
     </div>
-    <div data-role="content" id="sanskrit">
+    <div data-role="content" id="san">
     <h2><i>дхтаршра увча<br>
         дхарма-кшетре куру-кшетре<br>
         самавет йуйутсава<br>
@@ -46,9 +47,8 @@
         <a href="../index.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Главы</a>
         <a href="glava1.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Шлоки Глава1</a>
         <a href="1.2.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all" >следующая шлока</a>
-        <button id="top" class="ui-btn ui-mini ui-corner-all">вверх</button>
+        <button onclick="scrollMeUp()" class="ui-btn ui-mini ui-corner-all">вверх</button>
     </div>
-
 
     <div data-role="footer" data-position="fixed"><h6>Его Божественная Милость А.Ч. Бхактиведанта Свами Прабхупада</h6></div>
 </div>
