@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <script src="../jsScripts/myFunctions.js"></script>
+
   <title>Бхагавад-гита как она есть</title>
 
 </head>
@@ -33,8 +33,12 @@
             <a href="glava17.html" class="ui-btn  ui-mini ui-corner-all">17 | Разновидности веры</a>
             <a href="glava18.html" class="ui-btn  ui-mini ui-corner-all">18 | Совершенство отречения</a>
         </div>
-        <div include-js="footer.html"></div>
+
+        <div data-role="footer" w3-include-html="foot.html"></div>
+        <!--
         <div data-role="footer" data-position="fixed"><h6>Его Божественная Милость А.Ч. Бхактиведанта Свами Прабхупада</h6></div>
+        -->
     </div>
+    <script src="jsScripts/myFunctions.js"></script>
 </body>
 </html>
