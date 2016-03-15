@@ -34,11 +34,16 @@
             <a href="glava18.html" class="ui-btn  ui-mini ui-corner-all">18 | Совершенство отречения</a>
         </div>
 
-        <div data-role="footer" w3-include-html="foot.html"></div>
+
+        <div  data-role="footer"><h5 id="res"></h5></div>
         <!--
         <div data-role="footer" data-position="fixed"><h6>Его Божественная Милость А.Ч. Бхактиведанта Свами Прабхупада</h6></div>
+                <div id="res" data-role="footer" w3-include-html="foot.html"></div>
         -->
     </div>
     <script src="jsScripts/myFunctions.js"></script>
+<script>
+    $( "#res" ).load( "foot.html #foo" );
+</script>
 </body>
 </html>
