@@ -5,7 +5,3 @@ function scrollMeUp(){
     $('body').scrollTop('#san');
 }
 
-
-$(document).ready(function(){
-    $(".res").load("foot.html .foo");
-});
