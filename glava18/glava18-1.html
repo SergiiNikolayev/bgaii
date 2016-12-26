@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../jsScripts/myFunctions.js"></script>
+    <title>Глава 18</title>
+
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header" data-page="1.1"><h5>18.1</h5></div>
+    <div data-role="content">
+        <a href="../index.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Главы</a>
+        <a href="glava1.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Шлоки Глава1</a>
+        <a href="1.2.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all" >следующая</a>
+    </div>
+    <div data-role="content" id="san">
+        <script>
+            document.write(jsonBg.chapter18[0].id);
+
+        </script>
+
+        <!-- sanskrit -->
+        <p style="text-align:center;font-family:georgia,serif">
+            111धृतराष्ट्र उवाच<br>
+            धर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः ।<br>
+            मामकाः पाण्डवाश्चैव किमकुर्वत सञ्जय ॥१॥<br>
+        </p>
+        <!-- sanskrit - ru -->
+        <h3 style="text-align:center">
+            <script>
+                document.write(jsonBg.chapter18[0].shloka);
+            </script>
+        </h3>
+
+        <!-- word translation -->
+        Пословный перевод:<br>
+        <script>
+            document.write(jsonBg.chapter18[0].posl);
+        </script>
+        <br>
+        <br>
+        <!-- translation -->
+        <b>Перевод:</b>
+        <h4>
+            <script>
+                document.write(jsonBg.chapter18[0].translat);
+            </script>
+        </h4>
+        <!-- purport -->
+        <p>
+            Комментарий:<br>
+            <script>
+                document.write(jsonBg.chapter18[0].comm);
+            </script>
+
+        </p>
+    </div>
+
+    <div data-role="content">
+        <button onclick="scrollMeUp()" class="ui-btn ui-mini ui-corner-all">вверх</button>
+        <a href="../index.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Главы</a>
+        <a href="glava1.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Шлоки Глава1</a>
+        <a href="1.2.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all" >следующая шлока</a>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>
