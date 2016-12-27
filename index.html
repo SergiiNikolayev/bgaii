@@ -3,9 +3,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="jsScripts/jquery-1.12.4.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="jsScripts/myFunctions.js"></script>
   <title>Бхагавад-гита как она есть</title>
 
@@ -31,7 +30,7 @@
             <a href="glava14.html" class="ui-btn  ui-mini ui-corner-all">14 | Три гуны материальной природы</a>
             <a href="glava15.html" class="ui-btn  ui-mini ui-corner-all">15 | Пурушоттама-йога, йога Высшей Личности</a>
             <a href="glava16.html" class="ui-btn  ui-mini ui-corner-all">16 | Божественные и демонические натуры</a>
-            <a href="glava17.html" class="ui-btn  ui-mini ui-corner-all">17 | Разновидности веры</a>
+            <a href="glava17/glava17.html"  rel="external" class="ui-btn  ui-mini ui-corner-all">17 | Разновидности веры</a>
             <a href="glava18/glava18.html" class="ui-btn  ui-mini ui-corner-all">18 | Совершенство отречения</a>
         </div>
 
@@ -43,6 +42,13 @@
             console.log(jsonBg.chapter18[i].shloka);
             console.log(jsonBg.chapter18[i].tran);
         }
+        $( document ).ready(function() {
+            var interval = setInterval(function () {
+                $.mobile.loading('hide');
+                console.log("hide");
+                clearInterval(interval);
+            }, 1);
+        });
     </script>
     <p id="demo">p</p>
 

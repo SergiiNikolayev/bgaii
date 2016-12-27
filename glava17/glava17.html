@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../jsScripts/myFunctions.js"></script>
+    <title>Глава 17</title>
+
+</head>
+<body>
+<div data-role="page">
+    <div data-role="header"><h5>название 17 Главы</h5></div>
+    <div data-role="content">
+        <a href="../index.html" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">выбрать Главу</a>
+        <a href="#" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">17.1</a>
+        <a href="#" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">17.2</a>
+    </div>
+    <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
+        <li><a href="#"><p></p></a><b></b><span></span></li>
+        <li><a href="#"><p></p></a><b></b><span></span></li>
+        <li><a href="#"><p></p></a><b></b><span></span></li>
+        <li><a href="#"><p></p></a><b></b><span></span></li>
+        <li><a href="#"><p></p></a><b></b><span></span></li>
+        <li><a href="#"><p></p></a><b></b><span></span></li>
+    </ul>
+</div>
+
+</body>
+<script>
+    for(var i = 0; i < 1; i++){
+        console.log(jsonBg.chapter17[i].shloka);
+        console.log(jsonBg.chapter17[i].tran);
+    }
+
+    /** This block of code adding content to our list of li's from JSON file*/
+    //after adding to main page rel="external" document ready work good with out refreshing the page
+    $( document ).ready(function() {
+        for(var i = 1; i < 6; i++){
+            $("li b").eq(i).text(jsonBg.chapter17[i].id);
+        };
+        for(var i = 1; i < 6; i++){
+            $("li p").eq(i).text(jsonBg.chapter17[i].shloka);
+        };
+        for(var i = 1; i < 6; i++){
+            $("li span").eq(i).text(jsonBg.chapter17[i].tran);
+        }
+
+
+    });
+
+/*    setTimeout(function() {
+        $( document ).ready(function() {
+        for(var i = 0; i < 6; i++){
+            $("li a").eq(i).text(jsonBg.chapter17[i].shloka);
+        }
+    });
+    }, 2000);*/
+
+</script>
+</html>
