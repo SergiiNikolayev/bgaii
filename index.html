@@ -3,10 +3,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-   <!-- <script src="jsScripts/myFunctions.js"></script>-->
+    <script src="jsScripts/myFunctions.js"></script>
   <title>Бхагавад-гита как она есть</title>
 
 </head>
@@ -38,6 +38,13 @@
 
         <div data-role="footer" data-position="fixed"><h6>Его Божественная Милость<br> А.Ч. Бхактиведанта Свами Шрила Прабхупада</h6></div>
     </div>
+    <script>
+        for(var i = 0; i < 3; i++){
+            console.log(jsonBg.chapter18[i].shloka);
+            console.log(jsonBg.chapter18[i].tran);
+        }
+    </script>
+    <p id="demo">p</p>
 
 </body>
 

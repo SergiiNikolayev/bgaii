@@ -12,15 +12,13 @@
 </head>
 <body>
 <div data-role="page">
-    <div data-role="header" data-page="1.1"><h5>18.1</h5></div>
+    <div data-role="header" data-page="18.1"><h5>18.1</h5></div>
     <div data-role="content">
-        <a href="../index.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Главы</a>
+        <a href="../index.html" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Главы</a>
         <a href="glava18.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Шлоки Глава1</a>
     </div>
     <div data-role="content" id="san">
-        <script>
-            document.write(jsonBg.chapter18[1].id);
-        </script>
+
 
         <!-- sanskrit -->
         <p style="text-align:center;font-family:georgia,serif">
@@ -46,7 +44,7 @@
         <b>Перевод:</b>
         <h4>
             <script>
-                document.write(jsonBg.chapter18[1].translat);
+                document.write(jsonBg.chapter18[1].tran);
             </script>
         </h4>
         <!-- purport -->
@@ -58,7 +56,9 @@
 
         </p>
     </div>
-
+    <script>
+        document.write(jsonBg.chapter18[1].id);
+    </script>
     <div data-role="content">
         <button onclick="scrollMeUp()" class="ui-btn ui-mini ui-corner-all">вверх</button>
         <a href="../index.html" class="ui-btn ui-btn-inline ui-mini ui-corner-all">Главы</a>
