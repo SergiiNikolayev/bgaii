@@ -49,7 +49,6 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\gt-webfont.woff2" />
-    <Content Include="css\images\ajax-loader.gif" />
     <Content Include="css\jquery.mobile-1.4.5.min.css" />
     <Content Include="css\style.css" />
     <Content Include="default.html" />
