@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
     <script src="../jsScripts/jquery-2.2.4.min.js"></script>
     <script src="../jsScripts/jquery.mobile-1.4.5.min.js"></script>
-    <script src="../jsScripts/winstore-jscompat.js"></script> <!-- 1st jQury, 2nd jquery Mobile, 3rd winstore-jscompat.js-->
+    <script src="../jsScripts/winstore-jscompat.js"></script> <!-- 1st jQuery, 2nd jquery Mobile, 3rd winstore-jscompat.js-->
 
     <title>Глава 17</title>
 
@@ -21,18 +21,20 @@
         <a href="#" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">17.1</a>
         <a href="#" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">17.2</a>
     </div>
-    <!-- <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
+
+    <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
-    </ul>  -->
-    <ul id="list" data-id="17" onload="addLi()">
-       
     </ul>
+    <ul id="list" data-id="17" onload="addLi()">   
+    </ul>
+
     <button onclick="addLi()">Try it</button>
+
 </div>
 
 </body>
@@ -46,7 +48,7 @@
     var sh = jsonBg.chapter17[1].comm;
 
     function addLi() {
-        
+
         for (i = 0; i < leng; i++) {
             var liCre = document.createElement("LI");
             ul.appendChild(liCre);
@@ -66,12 +68,16 @@
         addLi();
     }, 800);
 
+    $(document).ready(function () {
+        console.log(leng);
+
+    })
 
 
     /** This block of code adding content to our list of li's from JSON file*/
     //after adding to main page rel="external" document ready work good with out refreshing the page
 
-/**    $( document ).ready(function() {
+    $( document ).ready(function() {
         for(var i = 1; i < 6; i++){
             $("li b").eq(i).text(jsonBg.chapter17[i].id);
         };
@@ -83,7 +89,7 @@
         }
 
 
-    }); */
+    }); 
 
 /*    setTimeout(function() {
         $( document ).ready(function() {

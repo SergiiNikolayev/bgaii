@@ -21,6 +21,12 @@
     <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\gt-webfont.woff2">
       <PackagePath>css\gt-webfont.woff2</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\images\ajax-loader.gif">
+      <PackagePath>css\images\ajax-loader.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\ajax-loader.gif">
+      <PackagePath>images\ajax-loader.gif</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\jquery.mobile-1.4.5.min.css">
       <PackagePath>css\jquery.mobile-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>

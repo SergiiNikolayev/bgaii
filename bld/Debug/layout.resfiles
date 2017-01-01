@@ -1,5 +1,6 @@
 css\default.css
 css\gt-webfont.woff2
+css\images\ajax-loader.gif
 css\jquery.mobile-1.4.5.min.css
 css\style.css
 css\ui-themed.css
@@ -13,6 +14,7 @@ glava17\glava17.html
 glava18\glava18.html
 glava18\glava18-1.html
 glava2\glava2.html
+images\ajax-loader.gif
 images\SplashScreen.scale-240.png
 images\Square150x150Logo.scale-240.png
 images\Square44x44Logo.scale-240.png

@@ -5,6 +5,6 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>WindowsPhoneEmulatorDebugger</DebuggerFlavor>
-    <WindowsPhoneEmulatorID>33D7CE1E-0D98-4E5C-89B9-4AD2183E2DB6;Emulator 8.1 1080P 5.5 inch(RU)</WindowsPhoneEmulatorID>
+    <WindowsPhoneEmulatorID>A6BAF594-9315-40C3-AD16-F5B8A425A7AB;Emulator 8.1 WVGA 4 inch 512MB(RU)</WindowsPhoneEmulatorID>
   </PropertyGroup>
 </Project>
