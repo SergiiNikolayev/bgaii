@@ -1,12 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
-    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script src="../jsScripts/myFunctions.js"></script>
+    <!--<script src="../jsScripts/my.js"></script> -->
+    <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
+    <script src="../jsScripts/jquery-2.2.4.min.js"></script>
+    <script src="../jsScripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="../jsScripts/winstore-jscompat.js"></script>
+
     <title>Глава 17</title>
 
 </head>
@@ -18,26 +21,48 @@
         <a href="#" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">17.1</a>
         <a href="#" rel="external" class="ui-btn ui-btn-inline ui-mini ui-corner-all">17.2</a>
     </div>
-    <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
+    <!-- <ul data-role="listview" data-filter="true" data-filter-placeholder="Search fruits..." data-inset="true">
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
         <li><a href="#"><p></p></a><b></b><span></span></li>
+    </ul>  -->
+    <ul id="list" data-id="17" onload="addLi()">
+       
     </ul>
+    <button onclick="addLi()">Try it</button>
 </div>
 
 </body>
 <script>
-    for(var i = 0; i < 1; i++){
-        console.log(jsonBg.chapter17[i].shloka);
-        console.log(jsonBg.chapter17[i].tran);
-    }
+
+
+    var ul = document.getElementById("list");
+    ul.onload = function () { addLi() };
+    var chapterNumber = ul.getAttribute("data-id");
+    var leng = jsonBg.chapter17.length - 1;
+
+    function addLi() {
+        var liCre = document.createElement("LI");
+        ul.appendChild(liCre);
+    };
+    console.log(leng);
+    console.log("s");
+
+    ul.onload = function () { addLi() };
+
+    setTimeout(function () {
+        addLi();
+    }, 1000);
+
+
 
     /** This block of code adding content to our list of li's from JSON file*/
     //after adding to main page rel="external" document ready work good with out refreshing the page
-    $( document ).ready(function() {
+
+/**    $( document ).ready(function() {
         for(var i = 1; i < 6; i++){
             $("li b").eq(i).text(jsonBg.chapter17[i].id);
         };
@@ -49,7 +74,7 @@
         }
 
 
-    });
+    }); */
 
 /*    setTimeout(function() {
         $( document ).ready(function() {

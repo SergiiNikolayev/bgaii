@@ -80,5 +80,4 @@ var jsonBg = {
     ]
 };
 
-/*var book = JSON.parse(jsonBg);*/
 

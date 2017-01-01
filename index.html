@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <script src="jsScripts/jquery-1.12.4.min.js"></script>
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="jsScripts/jquery.mobile-1.4.5.min.js"></script>
     <script src="jsScripts/myFunctions.js"></script>
   <title>Бхагавад-гита как она есть</title>
 <!-- Project paused until i understand how to convert this project to app windows phone
@@ -43,13 +43,7 @@ here some explanation: https://youtu.be/aNY4oZByTko -->
             console.log(jsonBg.chapter18[i].shloka);
             console.log(jsonBg.chapter18[i].tran);
         }
-        $( document ).ready(function() {
-            var interval = setInterval(function () {
-                $.mobile.loading('hide');
-                console.log("hide");
-                clearInterval(interval);
-            }, 1);
-        });
+
     </script>
     <p id="demo">p</p>
 
