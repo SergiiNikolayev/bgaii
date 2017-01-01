@@ -16,7 +16,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="index.html">
-      <m3:VisualElements DisplayName="bgaii-vs2015" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" Description="App1" ForegroundText="light" BackgroundColor="transparent">
+      <m3:VisualElements DisplayName="Bhagavad Gita as it is" Square150x150Logo="images\Square150x150Logo.png" Square44x44Logo="images\Square44x44Logo.png" Description="Bhagavad Gita as it is written by His Divine Grace A.C. Bhaktivedanta Srila Prabhupada acarya founder of International Society for Krishna Consciousness" ForegroundText="light" BackgroundColor="transparent">
         <m3:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png" Square71x71Logo="images\Square71x71Logo.png">
         </m3:DefaultTile>
         <m3:SplashScreen Image="images\SplashScreen.png" />
