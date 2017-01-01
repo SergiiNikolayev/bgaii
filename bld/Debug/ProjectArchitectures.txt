@@ -1,1 +1,1 @@
-C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\App1.jsproj;neutral
+T:\GitHub-projects\bgaii\App1.jsproj;neutral

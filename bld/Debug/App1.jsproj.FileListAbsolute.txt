@@ -13,3 +13,18 @@ c:\users\ns\documents\visual studio 2015\Projects\App1\App1\bld\Debug\qualifiers
 c:\users\ns\documents\visual studio 2015\Projects\App1\App1\bld\Debug\qualifiers.txt.intermediate
 c:\users\ns\documents\visual studio 2015\Projects\App1\App1\bld\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\ns\documents\visual studio 2015\Projects\App1\App1\bld\Debug\ProjectArchitectures.txt
+T:\GitHub-projects\bgaii\bin\Debug\ReverseMap\resources.pri
+T:\GitHub-projects\bgaii\bin\Debug\AppxManifest.xml
+T:\GitHub-projects\bgaii\bin\Debug\App1.build.appxrecipe
+T:\GitHub-projects\bgaii\bld\Debug\priconfig.xml
+T:\GitHub-projects\bgaii\bld\Debug\priconfig.xml.intermediate
+T:\GitHub-projects\bgaii\bld\Debug\layout.resfiles
+T:\GitHub-projects\bgaii\bld\Debug\layout.resfiles.intermediate
+T:\GitHub-projects\bgaii\bld\Debug\resources.resfiles
+T:\GitHub-projects\bgaii\bld\Debug\resources.resfiles.intermediate
+T:\GitHub-projects\bgaii\bld\Debug\pri.resfiles
+T:\GitHub-projects\bgaii\bld\Debug\pri.resfiles.intermediate
+T:\GitHub-projects\bgaii\bld\Debug\qualifiers.txt
+T:\GitHub-projects\bgaii\bld\Debug\qualifiers.txt.intermediate
+T:\GitHub-projects\bgaii\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+T:\GitHub-projects\bgaii\bld\Debug\ProjectArchitectures.txt

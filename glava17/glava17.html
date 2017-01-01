@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/jquery.mobile-1.4.5.min.css" />
     <script src="../jsScripts/jquery-2.2.4.min.js"></script>
     <script src="../jsScripts/jquery.mobile-1.4.5.min.js"></script>
-    <script src="../jsScripts/winstore-jscompat.js"></script>
+    <script src="../jsScripts/winstore-jscompat.js"></script> <!-- 1st jQury, 2nd jquery Mobile, 3rd winstore-jscompat.js-->
 
     <title>Глава 17</title>
 
@@ -40,22 +40,31 @@
 
 
     var ul = document.getElementById("list");
-    ul.onload = function () { addLi() };
+
     var chapterNumber = ul.getAttribute("data-id");
     var leng = jsonBg.chapter17.length - 1;
+    var sh = jsonBg.chapter17[1].comm;
 
     function addLi() {
-        var liCre = document.createElement("LI");
-        ul.appendChild(liCre);
+        
+        for (i = 0; i < leng; i++) {
+            var liCre = document.createElement("LI");
+            ul.appendChild(liCre);
+      //      var text = jsonBg.chapter17[i].id;
+      //      liCre.appendChild(text);
+
+        };
+
     };
     console.log(leng);
+    console.log(sh);
     console.log("s");
 
-    ul.onload = function () { addLi() };
+   // ul.onload = function () { addLi() };
 
     setTimeout(function () {
         addLi();
-    }, 1000);
+    }, 800);
 
 
 

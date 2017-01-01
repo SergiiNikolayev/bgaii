@@ -9,112 +9,112 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>1c0e063a-8344-4bc9-a728-853f816d01ef</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\bld\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>T:\GitHub-projects\bgaii\bld\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="T:\GitHub-projects\bgaii\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\gt-webfont.woff2">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\gt-webfont.woff2">
       <PackagePath>css\gt-webfont.woff2</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\jquery.mobile-1.4.5.min.css">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\jquery.mobile-1.4.5.min.css">
       <PackagePath>css\jquery.mobile-1.4.5.min.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\style.css">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\style.css">
       <PackagePath>css\style.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\default.css">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\ui-themed.css">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\ui-themed.css">
       <PackagePath>css\ui-themed.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\ui-themed.theme-dark.css">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\ui-themed.theme-dark.css">
       <PackagePath>css\ui-themed.theme-dark.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\css\ui-themed.theme-light.css">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\css\ui-themed.theme-light.css">
       <PackagePath>css\ui-themed.theme-light.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\default.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava17\glava17.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava17\glava17.html">
       <PackagePath>glava17\glava17.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava18\glava18-1.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava18\glava18-1.html">
       <PackagePath>glava18\glava18-1.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava18\glava18.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava18\glava18.html">
       <PackagePath>glava18\glava18.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava1\1.1.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava1\1.1.html">
       <PackagePath>glava1\1.1.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava1\1.2.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava1\1.2.html">
       <PackagePath>glava1\1.2.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava1\glava1.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava1\glava1.html">
       <PackagePath>glava1\glava1.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\glava2\glava2.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava2\glava2.html">
       <PackagePath>glava2\glava2.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\index.html">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\index.html">
       <PackagePath>index.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\images\Square150x150Logo.scale-240.png">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\Square150x150Logo.scale-240.png">
       <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\images\Square44x44Logo.scale-240.png">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\Square44x44Logo.scale-240.png">
       <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\images\Wide310x150Logo.scale-240.png">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\Wide310x150Logo.scale-240.png">
       <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\images\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\Square71x71Logo.scale-240.png">
       <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\images\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\SplashScreen.scale-240.png">
       <PackagePath>images\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\images\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\StoreLogo.scale-240.png">
       <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\jquery-1.12.4.min.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\jquery-1.12.4.min.js">
       <PackagePath>jsScripts\jquery-1.12.4.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\jquery-2.2.4.min.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\jquery-2.2.4.min.js">
       <PackagePath>jsScripts\jquery-2.2.4.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\jquery.mobile-1.4.5.min.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\jquery.mobile-1.4.5.min.js">
       <PackagePath>jsScripts\jquery.mobile-1.4.5.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\my.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\my.js">
       <PackagePath>jsScripts\my.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\myFunctions.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\myFunctions.js">
       <PackagePath>jsScripts\myFunctions.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\winjq.min.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\winjq.min.js">
       <PackagePath>jsScripts\winjq.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\jsScripts\winstore-jscompat.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\jsScripts\winstore-jscompat.js">
       <PackagePath>jsScripts\winstore-jscompat.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\js\default.js">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\NS\Documents\Visual Studio 2015\Projects\App1\App1\bin\Debug\ReverseMap\resources.pri">
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\bin\Debug\ReverseMap\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
