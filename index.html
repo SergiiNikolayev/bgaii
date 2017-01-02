@@ -21,16 +21,16 @@
             <script>
                 $(document).ready(function () {
                     $.ajax({
-                        url: "http://www.scri8e.com/stars/bgs/1J1/sunsetpalmsbanner.jpg"
+                        url: "https://raw.githubusercontent.com/SergiiNikolayev/bgaii/master/news.html"
                     }).done(function( html ) {
-                        $( "#results" ).append( html );
+                        $( "#news" ).append( html );
                     })
                     .fail(function () {
                         $(".ui-btn").css("color", "purple");
                     });
                 });
             </script>
-            <div id="results" style="height: 90px; overflow:hidden;">...</div>
+            <div id="news" style="height: 90px; overflow:hidden;">...</div>
             <a href="glava1/glava1.html" class="ui-btn  ui-mini ui-corner-all">1 | Обзор армий на поле битвы Курукшетра</a>
             <a href="glava2/glava2.html" class="ui-btn  ui-mini ui-corner-all">2 | Краткое изложение "Бхагавад-гиты"</a>
             <a href="glava3/glava3.html" class="ui-btn  ui-mini ui-corner-all">3 | Карма-йога</a>

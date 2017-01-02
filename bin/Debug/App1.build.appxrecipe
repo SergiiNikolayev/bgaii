@@ -69,6 +69,9 @@
     <AppxPackagedFile Include="T:\GitHub-projects\bgaii\index.html">
       <PackagePath>index.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\news.html">
+      <PackagePath>news.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="T:\GitHub-projects\bgaii\images\ajax-loader.gif">
       <PackagePath>images\ajax-loader.gif</PackagePath>
     </AppxPackagedFile>
