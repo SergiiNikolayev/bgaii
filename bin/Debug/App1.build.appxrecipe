@@ -63,6 +63,9 @@
     <AppxPackagedFile Include="T:\GitHub-projects\bgaii\glava2\glava2.html">
       <PackagePath>glava2\glava2.html</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="T:\GitHub-projects\bgaii\head.html">
+      <PackagePath>head.html</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="T:\GitHub-projects\bgaii\index.html">
       <PackagePath>index.html</PackagePath>
     </AppxPackagedFile>

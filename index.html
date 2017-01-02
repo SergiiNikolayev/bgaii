@@ -18,6 +18,19 @@
         <div data-role="header"><h5>Бхагавад-гита как она есть</h5></div>
 
         <div data-role="content">
+            <script>
+                $(document).ready(function () {
+                    $.ajax({
+                        url: "http://www.scri8e.com/stars/bgs/1J1/sunsetpalmsbanner.jpg"
+                    }).done(function( html ) {
+                        $( "#results" ).append( html );
+                    })
+                    .fail(function () {
+                        $(".ui-btn").css("color", "purple");
+                    });
+                });
+            </script>
+            <div id="results" style="height: 90px; overflow:hidden;">...</div>
             <a href="glava1/glava1.html" class="ui-btn  ui-mini ui-corner-all">1 | Обзор армий на поле битвы Курукшетра</a>
             <a href="glava2/glava2.html" class="ui-btn  ui-mini ui-corner-all">2 | Краткое изложение "Бхагавад-гиты"</a>
             <a href="glava3/glava3.html" class="ui-btn  ui-mini ui-corner-all">3 | Карма-йога</a>
