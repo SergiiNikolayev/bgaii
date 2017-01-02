@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
 
     <script src="jsScripts/jquery-2.2.4.min.js"></script>
-    <script src="jsScripts/jquery.mobile-1.4.5.min.js"></script>
+    <script src="jqm/jquery.mobile-1.4.5.min.js"></script>
     <script src="jsScripts/winstore-jscompat.js"></script> <!-- 1st jQuery, 2nd jquery Mobile, 3rd winstore-jscompat.js-->
     <script src="jsScripts/myFunctions.js"></script>
     <!-- AJAX, JSON calls https://timcodes.wordpress.com/2013/09/17/windows-phone-8-local-ajax-json-calls/ -->
@@ -18,19 +18,22 @@
         <div data-role="header"><h5>Бхагавад-гита как она есть</h5></div>
 
         <div data-role="content">
+            <!-- START news block -->
             <script>
+                /** working AJAX*/
                 $(document).ready(function () {
                     $.ajax({
-                        url: "https://raw.githubusercontent.com/SergiiNikolayev/bgaii/master/news.html"
+                        url: "https://raw.githubusercontent.com/SergiiNikolayev/news-for-app/master/news.html"
                     }).done(function( html ) {
                         $( "#news" ).append( html );
                     })
                     .fail(function () {
-                        $(".ui-btn").css("color", "purple");
+                        $("#news").append("###");
                     });
                 });
             </script>
-            <div id="news" style="height: 90px; overflow:hidden;">...</div>
+            <div id="news" style="height:50px;overflow:hidden;"></div>
+            <!-- END news block -->
             <a href="glava1/glava1.html" class="ui-btn  ui-mini ui-corner-all">1 | Обзор армий на поле битвы Курукшетра</a>
             <a href="glava2/glava2.html" class="ui-btn  ui-mini ui-corner-all">2 | Краткое изложение "Бхагавад-гиты"</a>
             <a href="glava3/glava3.html" class="ui-btn  ui-mini ui-corner-all">3 | Карма-йога</a>
